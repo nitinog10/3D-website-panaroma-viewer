@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .container {
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            opacity: 0.6;
+        }
+
+        .content {
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+
+        .content__child {
+            font-family: sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+
+    <div id="container">
+
+
+        <div class="overlay">
+
+        </div>
+
+    </div>
+
+
+    <div class="content">
+        <div class="content__child">
+            <h1>Hello World</h1>
+        </div>  
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.151.3/three.min.js"></script>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
